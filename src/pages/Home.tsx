@@ -6,14 +6,14 @@ const Home: React.FC = () => {
 
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>
-      Quiz - Estructura Base Móvil
-      Selecciona una opción para registrar:
+      <h1>Quiz - Estructura Base Movil</h1>
+      <p>Selecciona una opcion para registrar:</p>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '300px', margin: '0 auto' }}>
-        <button onClick={() => navigate('/users')}>Registrar Usuario
-        <button onClick={() => navigate('/persons')}>Registrar Persona
-        <button onClick={() => navigate('/products')}>Registrar Producto
-      
-    
+        <button onClick={() => navigate('/users')}>Registrar Usuario</button>
+        <button onClick={() => navigate('/persons')}>Registrar Persona</button>
+        <button onClick={() => navigate('/products')}>Registrar Producto</button>
+      </div>
+    </div>
   );
 };
 
